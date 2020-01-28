@@ -1,0 +1,11 @@
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.Vtiger.scripts.TestHomePage"/>
+      <class name="com.Vtiger.scripts.TestCreateNewOrganizationPage"/>
+      <class name="com.Vtiger.scripts.TestOrganizationPage"/>
+      <class name="com.Vtiger.scripts.TestCreateProductPage"/>
+      <class name="com.Vtiger.scripts.TestCampaignsPage"/>
+   </classes>
+  </test> 
+</suite> 

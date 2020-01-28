@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="77098" started-at="2020-01-27T12:37:18Z" finished-at="2020-01-27T12:38:35Z">
+    <groups>
+      <group name="Smoke Testing">
+        <method signature="TestCampaignsPage.CampaignsPage()[pri:0, instance:com.crm.Vtiger.CampaignTest.TestCampaignsPage@548a9f61]" name="CampaignsPage" class="com.crm.Vtiger.CampaignTest.TestCampaignsPage"/>
+        <method signature="TestOrganizationPage.CreateOrganization()[pri:0, instance:com.crm.Vtiger.OrganizationTest.TestOrganizationPage@4f933fd1]" name="CreateOrganization" class="com.crm.Vtiger.OrganizationTest.TestOrganizationPage"/>
+        <method signature="TestProductsPage.TestProductPage()[pri:0, instance:com.crm.Vtiger.ProductTest.TestProductsPage@1753acfe]" name="TestProductPage" class="com.crm.Vtiger.ProductTest.TestProductsPage"/>
+      </group> <!-- Smoke Testing -->
+    </groups>
+    <test name="TestOrg" duration-ms="77098" started-at="2020-01-27T12:37:18Z" finished-at="2020-01-27T12:38:35Z">
+      <class name="com.crm.Vtiger.ProductTest.TestProductsPage">
+        <test-method status="PASS" signature="OpenApplication(java.lang.String)[pri:0, instance:com.crm.Vtiger.ProductTest.TestProductsPage@1753acfe]" name="OpenApplication" is-config="true" duration-ms="5865" started-at="2020-01-27T18:08:10Z" finished-at="2020-01-27T18:08:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.crm.Vtiger.ProductTest.TestProductsPage@1753acfe]" name="configBM" is-config="true" duration-ms="2477" started-at="2020-01-27T18:08:16Z" finished-at="2020-01-27T18:08:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="TestProductPage()[pri:0, instance:com.crm.Vtiger.ProductTest.TestProductsPage@1753acfe]" name="TestProductPage" duration-ms="11543" started-at="2020-01-27T18:08:19Z" finished-at="2020-01-27T18:08:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestProductPage -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.crm.Vtiger.ProductTest.TestProductsPage@1753acfe]" name="configAM" is-config="true" duration-ms="1646" started-at="2020-01-27T18:08:30Z" finished-at="2020-01-27T18:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.crm.Vtiger.ProductTest.TestProductsPage@1753acfe]" name="configAC" is-config="true" duration-ms="3034" started-at="2020-01-27T18:08:32Z" finished-at="2020-01-27T18:08:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.crm.Vtiger.ProductTest.TestProductsPage -->
+      <class name="com.crm.Vtiger.CampaignTest.TestCampaignsPage">
+        <test-method status="PASS" signature="OpenApplication(java.lang.String)[pri:0, instance:com.crm.Vtiger.CampaignTest.TestCampaignsPage@548a9f61]" name="OpenApplication" is-config="true" duration-ms="5396" started-at="2020-01-27T18:07:45Z" finished-at="2020-01-27T18:07:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.crm.Vtiger.CampaignTest.TestCampaignsPage@548a9f61]" name="configBM" is-config="true" duration-ms="2414" started-at="2020-01-27T18:07:50Z" finished-at="2020-01-27T18:07:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="CampaignsPage()[pri:0, instance:com.crm.Vtiger.CampaignTest.TestCampaignsPage@548a9f61]" name="CampaignsPage" duration-ms="13336" started-at="2020-01-27T18:07:52Z" finished-at="2020-01-27T18:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CampaignsPage -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.crm.Vtiger.CampaignTest.TestCampaignsPage@548a9f61]" name="configAM" is-config="true" duration-ms="1563" started-at="2020-01-27T18:08:06Z" finished-at="2020-01-27T18:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.crm.Vtiger.CampaignTest.TestCampaignsPage@548a9f61]" name="configAC" is-config="true" duration-ms="2788" started-at="2020-01-27T18:08:07Z" finished-at="2020-01-27T18:08:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.crm.Vtiger.CampaignTest.TestCampaignsPage -->
+      <class name="com.crm.Vtiger.OrganizationTest.TestOrganizationPage">
+        <test-method status="PASS" signature="OpenApplication(java.lang.String)[pri:0, instance:com.crm.Vtiger.OrganizationTest.TestOrganizationPage@4f933fd1]" name="OpenApplication" is-config="true" duration-ms="7191" started-at="2020-01-27T18:07:18Z" finished-at="2020-01-27T18:07:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.crm.Vtiger.OrganizationTest.TestOrganizationPage@4f933fd1]" name="configBM" is-config="true" duration-ms="2239" started-at="2020-01-27T18:07:25Z" finished-at="2020-01-27T18:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="CreateOrganization()[pri:0, instance:com.crm.Vtiger.OrganizationTest.TestOrganizationPage@4f933fd1]" name="CreateOrganization" duration-ms="12939" started-at="2020-01-27T18:07:27Z" finished-at="2020-01-27T18:07:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrganization -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.crm.Vtiger.OrganizationTest.TestOrganizationPage@4f933fd1]" name="configAM" is-config="true" duration-ms="1553" started-at="2020-01-27T18:07:40Z" finished-at="2020-01-27T18:07:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.crm.Vtiger.OrganizationTest.TestOrganizationPage@4f933fd1]" name="configAC" is-config="true" duration-ms="3050" started-at="2020-01-27T18:07:42Z" finished-at="2020-01-27T18:07:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.crm.Vtiger.OrganizationTest.TestOrganizationPage -->
+    </test> <!-- TestOrg -->
+  </suite> <!-- Suite -->
+</testng-results>

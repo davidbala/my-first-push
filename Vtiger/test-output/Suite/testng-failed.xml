@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <test name="TestOrg(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <groups>
+      <run>
+        <include name="Smoke Testing"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.crm.Vtiger.CampaignTest.TestCampaignsPage">
+        <methods>
+          <include name="OpenApplication"/>
+          <include name="configAM"/>
+          <include name="CampaignsPage"/>
+          <include name="configAC"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- com.crm.Vtiger.CampaignTest.TestCampaignsPage -->
+      <class name="com.crm.Vtiger.OrganizationTest.TestOrganizationPage">
+        <methods>
+          <include name="OpenApplication"/>
+          <include name="configAM"/>
+          <include name="configAC"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- com.crm.Vtiger.OrganizationTest.TestOrganizationPage -->
+      <class name="com.crm.Vtiger.ProductTest.TestProductsPage">
+        <methods>
+          <include name="OpenApplication"/>
+          <include name="configAM"/>
+          <include name="configAC"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- com.crm.Vtiger.ProductTest.TestProductsPage -->
+    </classes>
+  </test> <!-- TestOrg(failed) -->
+</suite> <!-- Failed suite [Suite] -->
